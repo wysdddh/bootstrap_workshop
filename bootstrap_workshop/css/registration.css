@@ -1,0 +1,179 @@
+#wrap {
+  padding-bottom: 0;
+}
+#main {
+  background: #cdc6bc url(../img/554392359copy.jpg) no-repeat;
+  min-height: 1000px;
+  background-size: 100%;
+  position: relative;
+  z-index: 1;
+  padding-top: 240px;
+  background-position: top center;
+}
+#main .registration_box {
+  width: 570px;
+  background: #fff;
+  padding: 40px 110px;
+  margin: 0 auto 25px;
+}
+#main .registration_box h2 {
+  font-size: 35px;
+  color: #847e72;
+}
+#main .registration_box p {
+  margin-top: 25px;
+  font-size: 16px;
+  color: #847e72;
+}
+#main .registration_box input {
+  padding: 10px;
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  height: 45px;
+  background: #fff;
+  border: 1px solid #847e72;
+  outline: none;
+}
+#main .registration_box textarea {
+  width: 100%;
+  resize: none;
+  height: 80px;
+  border: 1px solid #847e72;
+  outline: none;
+  padding: 10px;
+  box-sizing: border-box;
+}
+#main .registration_box form {
+  width: 350px;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+#main .registration_box form p {
+  margin: 6px 0;
+  overflow: hidden;
+}
+#main .registration_box form p.even input,
+#main .registration_box form p.even select {
+  width: 168px;
+  float: left;
+  height: 45px;
+  background: #fff;
+  border: 1px solid #847e72;
+  outline: none;
+}
+#main .registration_box form p.even input.frist,
+#main .registration_box form p.even select.frist {
+  margin-right: 13px;
+}
+#main .registration_box .submit_btn {
+  width: 100%;
+  height: 45px;
+  color: #fff;
+  background: #847e72;
+  font-size: 16px;
+}
+#main .registration_box2,
+#main .registration_box3 {
+  padding: 40px 50px;
+}
+#main .registration_box2 h2,
+#main .registration_box3 h2 {
+  text-align: center;
+}
+#main .registration_box2 p,
+#main .registration_box3 p {
+  text-align: center;
+}
+#main .registration_box2 .list,
+#main .registration_box3 .list {
+  overflow: hidden;
+  margin-bottom: 100px;
+  margin-top: 35px;
+}
+#main .registration_box2 .list h3,
+#main .registration_box3 .list h3 {
+  padding-left: 35px;
+  font-weight: bold;
+  font-size: 16px;
+  color: #847e72;
+}
+#main .registration_box2 .list ul,
+#main .registration_box3 .list ul {
+  width: 50%;
+  float: left;
+}
+#main .registration_box2 .list ul i,
+#main .registration_box3 .list ul i {
+  display: inline-block;
+  width: 26px;
+  height: 26px;
+  background: url(../img/icon_ok_03.png) no-repeat;
+  vertical-align: middle;
+  margin-right: 7px;
+}
+#main .registration_box2 .list ul li,
+#main .registration_box3 .list ul li {
+  font-size: 16px;
+  color: #8a8479;
+  line-break: 26px;
+  margin-top: 5px;
+}
+#main .registration_box4 {
+  padding: 40px 50px;
+}
+#main .registration_box4 h2 {
+  text-align: center;
+}
+#main .registration_box4 p {
+  text-align: center;
+}
+#main .registration_footer {
+  padding: 40px 50px;
+  margin-bottom: 45px;
+  padding-bottom: 65px;
+}
+#main .registration_footer h2 {
+  text-align: center;
+  font-size: 40px;
+  color: #847e72;
+  line-height: 100px;
+}
+#main .registration_footer p {
+  text-align: center;
+  color: #777163;
+  font-size: 16px;
+  line-height: 1.5;
+}
+@-webkit-keyframes zoomImgBg {
+  0% {
+    background-size: 100%;
+  }
+  100% {
+    background-size: 110%;
+  }
+}
+@-moz-keyframes zoomImgBg {
+  0% {
+    background-size: 100%;
+  }
+  100% {
+    background-size: 110%;
+  }
+}
+@-m-keyframes zoomImgBg {
+  0% {
+    background-size: 100%;
+  }
+  100% {
+    background-size: 110%;
+  }
+}
+@keyframes zoomImgBg {
+  0% {
+    background-size: 100%;
+  }
+  100% {
+    background-size: 110%;
+  }
+}

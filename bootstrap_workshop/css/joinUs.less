@@ -1,0 +1,120 @@
+html,body{
+    height: 100%;
+    min-height: 500px;
+}
+#wrap{
+    padding: 0;
+    height: 100%;
+    
+    width: 100%;
+    #header{
+        position: absolute;
+    }
+    #carousel-example-generic{
+        height: 100%;
+        width: 100%;
+        overflow: hidden;
+        .carousel-inner{
+            height: 100%;
+        }
+        .item{
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            
+            box-sizing: border-box;
+            &>img{
+                display: block;
+                -webkit-animation: zoomImg 20s linear infinite;
+                -moz-animation: zoomImg 20s linear infinite;
+                -m-animation: zoomImg 20s linear infinite;
+                animation: zoomImg 20s linear infinite;
+                
+            }
+            .carousel-caption{
+                position: absolute;
+                height: 100%;
+                width: 100%;
+                padding: 0;
+                padding-top: 95px;
+                left: 0;
+                right: 0;
+                text-shadow: initial;
+                .content_logo{
+                    display: block;
+                    margin: 0 auto;
+                    margin-top: 140px;
+                }
+                h2{
+                    font-size: 50px;
+                    color: #fff;
+                    margin: 10px 0;
+                    
+                    text-shadow: initial;
+                }
+                dl{
+                    margin: 0 auto;
+                    width: 280px;
+                    dt{
+                        width: 80px;
+                        text-align: right;
+                        display: inline-block;
+                    }
+                    dd{
+                        display: inline-block;
+                        color: #fff;
+                        a{
+                            color: #fff;
+                        }
+                    }
+                }
+                .erweima{
+                    position: absolute;
+                    bottom: 10px;
+                    display: block;
+                    right: 20px;
+                    width: 150px;
+                    height: 150px;
+                }
+            }
+        }
+        
+    }
+}
+@-webkit-keyframes zoomImg{
+    
+    0%{
+        -webkit-transform: scale(1,1);
+    }
+    100%{
+        -webkit-transform: scale(1.2,1.2);
+    }
+}
+@-moz-keyframes zoomImg{
+    0%{
+        -webkit-transform: scale(1,1);
+    }
+    100%{
+        -webkit-transform: scale(1.2,1.2);
+    }
+}
+@-m-keyframes zoomImg{
+    0%{
+        -webkit-transform: scale(1,1);
+    }
+    100%{
+        -webkit-transform: scale(1.2,1.2);
+    }
+}
+@keyframes zoomImg{
+    0%{
+        -webkit-transform: scale(1,1);
+    }
+    100%{
+        -webkit-transform: scale(1.2,1.2);
+    }
+}
+
+

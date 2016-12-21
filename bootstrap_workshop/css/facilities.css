@@ -1,0 +1,190 @@
+.banner {
+  position: relative;
+  z-index: 1;
+}
+.banner .carousel-inner .item {
+  width: 100%;
+  overflow: hidden;
+}
+.banner .carousel-inner .item img {
+  display: block;
+  width: 100%;
+}
+#main {
+  background: #cac6bb;
+  position: relative;
+  z-index: 1;
+}
+#main section.facilities_common1 {
+  padding: 0;
+  background: #817d72;
+}
+#main section.facilities_common1 div.row {
+  margin: 0;
+  padding: 0;
+}
+#main section.facilities_common1 div.row div {
+  padding: 0;
+}
+#main section.facilities_common1 div.row div.wenBox1 {
+  background: #cac6bb;
+}
+#main section.facilities_common1 div h2 {
+  font-size: 12px;
+  line-height: 50px;
+  color: #1d160c;
+  font-weight: bold;
+  padding: 0 20px;
+}
+#main section.facilities_common1 div p {
+  font-size: 12px;
+  color: #1d160c;
+  word-break: break-all;
+  margin-bottom: 20px;
+  padding: 0 20px;
+}
+#main section.facilities_common1 img {
+  display: block;
+  width: 100%;
+}
+#main section.facilities_common2 {
+  padding: 0;
+  background: #5b564f;
+}
+#main section.facilities_common2 div.row {
+  margin: 0;
+  padding: 0;
+}
+#main section.facilities_common2 div.row div {
+  padding: 0;
+}
+#main section.facilities_common2 div.row div.wenBox2 {
+  background: #cac6bb;
+}
+#main section.facilities_common2 div h2 {
+  font-size: 12px;
+  line-height: 50px;
+  color: #bab6ab ;
+  color: #1d160c;
+  font-weight: bold;
+  padding: 0 20px;
+}
+#main section.facilities_common2 div p {
+  font-size: 12px;
+  color: #bab6ab;
+  color: #1d160c;
+  word-break: break-all;
+  margin-bottom: 20px;
+  padding: 0 20px;
+}
+#main section.facilities_common2 div {
+  padding: 0;
+}
+#main section.facilities_common2 img {
+  display: block;
+  width: 100%;
+}
+#main section.facilities_common3 {
+  padding: 0;
+  background: #817d72;
+  position: relative;
+}
+#main section.facilities_common3 div.row {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+#main section.facilities_common3 div.row div {
+  padding: 0;
+}
+#main section.facilities_common3 div {
+  height: 100%;
+}
+#main section.facilities_common3 div h1 {
+  font-size: 60px;
+  vertical-align: middle;
+  color: #fff ;
+  display: inline-block;
+  line-height: 1;
+  text-align: center;
+  width: 100%;
+  margin-top: 50%;
+  position: relative;
+  top: -60px;
+  font-weight: normal;
+}
+#main section.facilities_common3 div .wenBox {
+  width: 70%;
+  position: relative;
+  overflow: hidden;
+  background: #cac6bb;
+  border-radius: 100%;
+  margin: 0 auto;
+  margin-top: 10%;
+  height: auto;
+}
+#main section.facilities_common3 div .wenBox p,
+#main section.facilities_common3 div .wenBox h2 {
+  padding: 0;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 20px;
+}
+#main section.facilities_common3 div .wenBox .marginHeight {
+  margin-top: 100%;
+}
+#main section.facilities_common3 div .wenBox .content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 20px;
+  padding: 60px;
+  box-sizing: border-box;
+  border-radius: 100%;
+  overflow: hidden;
+  opacity: 0;
+  -webkit-transition: all 0.5s ease-out;
+  -webkit-transform: translateY(50px);
+}
+#main section.facilities_common3 div p {
+  font-size: 12px;
+  color: #bab6ab;
+  word-break: break-all;
+  margin-bottom: 20px;
+  padding: 0 20px;
+}
+#main section.facilities_common3 img {
+  display: block;
+  width: 100%;
+}
+#main section.facilities_common3:hover .wenBox .content {
+  opacity: 1;
+  -webkit-transform: translateY(0);
+}
+#main section.facilities_common4 {
+  padding: 0;
+  background: #abb1b1;
+  position: relative;
+  padding: 40px 0;
+}
+#main section.facilities_common4 div.row {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+#main section.facilities_common4 div.row div {
+  padding: 0;
+}
+#main section.facilities_common4 img {
+  display: block;
+  width: 100%;
+}

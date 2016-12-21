@@ -1,0 +1,146 @@
+.banner {
+  position: relative;
+  z-index: 1;
+}
+.banner .carousel-inner .item {
+  width: 100%;
+  overflow: hidden;
+}
+.banner .carousel-inner .item img {
+  display: block;
+  width: 100%;
+}
+#main {
+  background: #cac6bb;
+  position: relative;
+  z-index: 1;
+}
+#main section.community_common1 {
+  background: #cac6bb;
+}
+#main section.community_common1 div.row {
+  margin: 0;
+  padding: 0;
+}
+#main section.community_common1 div.row div {
+  padding: 0;
+}
+#main section.community_common1 div.row .work_logo {
+  padding: 5%;
+}
+#main section.community_common1 div h2 {
+  font-size: 100px;
+  color: #FFF;
+  font-weight: normal;
+  padding: 20px;
+  text-align: center;
+  overflow: hidden;
+}
+#main section.community_common1 div h3 {
+  color: #FFF;
+  font-weight: bold;
+  padding: 0 20px;
+  margin-bottom: 20px;
+}
+#main section.community_common1 div p {
+  font-size: 12px;
+  color: #FFF;
+  word-break: break-all;
+  margin-bottom: 20px;
+  padding: 0 20px;
+}
+#main section.community_common1 img {
+  display: block;
+  width: 100%;
+}
+#main section.community_common2 {
+  padding: 0;
+  position: relative;
+}
+#main section.community_common2 > div.row {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+#main section.community_common2 > div.row div {
+  padding: 0px;
+}
+#main section.community_common2 div.wenBox {
+  background: #fff;
+  margin: 5px;
+  padding: 10px !important;
+  height: 100%;
+  overflow: auto;
+}
+#main section.community_common2 div.wenBox h2 {
+  font-size: 24px;
+  color: #c3c3b7;
+  font-weight: normal;
+}
+#main section.community_common2 div.wenBox h3 {
+  font-weight: bold;
+}
+#main section.community_common2 div.wenWrap {
+  height: 100%;
+}
+#main section.community_common2 div.wenWrap .row {
+  height: 40%;
+}
+#main section.community_common2 div.title {
+  font-size: 60px;
+  color: #8a867b;
+  line-height: 1;
+  margin-top: 15px;
+  padding: 20px !important;
+}
+#main section.community_common2 div h2 {
+  font-size: 12px;
+  line-height: 50px;
+  color: #3e372d;
+  font-weight: bold;
+}
+#main section.community_common2 div p {
+  font-size: 12px;
+  color: #362f25;
+  word-break: break-all;
+  margin-bottom: 20px;
+}
+#main section.community_common2 img {
+  display: block;
+  width: 100%;
+}
+#main section.community_common3 {
+  padding: 0;
+  position: relative;
+}
+#main section.community_common3 img {
+  display: block;
+  width: 100%;
+}
+#main section.community_common3 .carousel-caption {
+  width: 50%;
+  text-align: center;
+  left: 6%;
+  padding: 0;
+  bottom: initial;
+  top: 30%;
+}
+#main section.community_common3 .carousel-caption h2 {
+  font-size: 25px;
+  text-shadow: initial;
+}
+#main section.community_common3 .carousel-caption h3 {
+  font-size: 60px;
+  text-shadow: initial;
+  line-height: 1;
+  font-weight: normal;
+}
+#main section.community_common3 .carousel-caption h4 {
+  font-size: 30px;
+  text-shadow: initial;
+  color: #e3e9ea;
+}

@@ -1,0 +1,93 @@
+.banner {
+  position: relative;
+  z-index: 1;
+}
+.banner .carousel-inner .item {
+  width: 100%;
+  overflow: hidden;
+}
+.banner .carousel-inner .item img {
+  display: block;
+  width: 100%;
+}
+#main {
+  background: #cac6bb;
+  position: relative;
+  z-index: 1;
+}
+#main section.aboutUs_common {
+  padding: 0;
+  padding-bottom: 50px;
+  background: #cac6bb;
+}
+#main section.aboutUs_common div {
+  padding: 0 20px;
+}
+#main section.aboutUs_common div.title {
+  font-size: 80px;
+  color: #fff;
+  line-height: 1;
+  margin-top: 15px;
+}
+#main section.aboutUs_common div h2 {
+  font-size: 12px;
+  line-height: 50px;
+  color: #3e372d;
+  font-weight: bold;
+}
+#main section.aboutUs_common div p {
+  font-size: 12px;
+  color: #362f25;
+  word-break: break-all;
+  margin-bottom: 20px;
+}
+#main section.booking_common {
+  background: #cac6bb;
+  padding: 0;
+}
+#main section.booking_common img {
+  display: block;
+  width: 100%;
+}
+#main section.workshop_common {
+  background: #cac6bb;
+  padding: 20px;
+}
+#main section.workshop_common .list {
+  overflow: hidden;
+}
+#main section.workshop_common .list > div {
+  overflow: hidden;
+}
+#main section.workshop_common .list img {
+  display: block;
+  width: 100%;
+  -webkit-transition: all .5s ease;
+  -moz-transition: all .5s ease;
+  -o-transition: all .5s ease;
+  transition: all .5s ease;
+}
+#main section.workshop_common .list .tu:hover img {
+  -webkit-transform: scale(1.1, 1.1);
+  -moz-transform: scale(1.1, 1.1);
+  -o-transform: scale(1.1, 1.1);
+  transform: scale(1.1, 1.1);
+}
+#main section.workshop_common .list .wen {
+  background: #fff;
+  width: 100%;
+  height: 266px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+#main section.workshop_common .list .wen p {
+  margin-bottom: 20px;
+  color: #d2d1cc;
+}
+#main section.community_common {
+  padding: 0;
+}
+#main section.community_common img {
+  display: block;
+  width: 100%;
+}

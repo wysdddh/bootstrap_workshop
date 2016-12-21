@@ -1,0 +1,207 @@
+.banner {
+  position: relative;
+  z-index: 1;
+}
+.banner .carousel-inner .item {
+  width: 100%;
+  overflow: hidden;
+}
+.banner .carousel-inner .item img {
+  display: block;
+  width: 100%;
+}
+#main {
+  background: #cac6bb;
+  position: relative;
+  z-index: 1;
+}
+#main section.location_common1 {
+  padding: 0;
+  padding-bottom: 50px;
+}
+#main section.location_common1 div {
+  padding: 0 20px;
+}
+#main section.location_common1 div.title {
+  font-size: 80px;
+  color: #fff;
+  line-height: 1;
+  margin-top: 15px;
+}
+#main section.location_common1 div h2 {
+  font-size: 12px;
+  line-height: 50px;
+  color: #3e372d;
+  font-weight: bold;
+}
+#main section.location_common1 div p {
+  font-size: 12px;
+  color: #362f25;
+  word-break: break-all;
+  margin-bottom: 20px;
+}
+#main section.location_common2 {
+  padding: 0;
+  background: #817d72;
+  position: relative;
+}
+#main section.location_common2 div.row {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+#main section.location_common2 div.row div {
+  padding: 0;
+}
+#main section.location_common2 div {
+  height: 100%;
+}
+#main section.location_common2 div h1 {
+  font-size: 60px;
+  vertical-align: middle;
+  color: #000 ;
+  display: inline-block;
+  line-height: 1;
+  text-align: center;
+  width: 100%;
+  margin-top: 50%;
+  position: relative;
+  top: -60px;
+}
+#main section.location_common2 div .wenBox {
+  width: 70%;
+  overflow: hidden;
+  position: relative;
+  border-radius: 100%;
+  margin: 0 auto;
+  margin-top: 10%;
+  height: auto;
+}
+#main section.location_common2 div .wenBox p,
+#main section.location_common2 div .wenBox h2 {
+  padding: 0;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 20px;
+}
+#main section.location_common2 div .wenBox .marginHeight {
+  margin-top: 100%;
+}
+#main section.location_common2 div .wenBox .content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 80px;
+}
+#main section.location_common2 div p {
+  font-size: 12px;
+  color: #bab6ab;
+  word-break: break-all;
+  margin-bottom: 20px;
+  padding: 0 20px;
+}
+#main section.location_common2 img {
+  display: block;
+  width: 100%;
+}
+#main section.location_common3 {
+  padding: 0;
+  background: #817d72;
+  position: relative;
+}
+#main section.location_common3 div.row {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+#main section.location_common3 div.row div {
+  padding: 0;
+}
+#main section.location_common3 .map_btn {
+  position: absolute;
+  width: 3%;
+  display: block;
+  top: 50%;
+  left: 33.5%;
+  margin-top: -2%;
+  cursor: pointer;
+}
+#main section.location_common3 .map_btn img {
+  display: block;
+  width: 100%;
+}
+#main section.location_common3 .arce {
+  width: 450px;
+  height: 450px;
+  margin: 0 auto;
+  background: rgba(228, 214, 178, 0.5);
+  border: 1px dashed #a29e99;
+  border-radius: 100%;
+  position: absolute;
+  top: 50%;
+  margin-top: -225px;
+  left: 50%;
+  margin-left: -225px;
+}
+#main section.location_common3 .arce .addBtn {
+  width: 45px;
+  height: 45px;
+  position: absolute;
+  top: 50%;
+  margin-top: -22px;
+  left: 50%;
+  margin-left: -22px;
+  background: #271e17;
+  border-radius: 100%;
+  text-align: center;
+  line-height: 45px;
+  font-size: 24px;
+  color: #cac5c0;
+}
+#main section.location_common3 .arce .wenBox {
+  position: absolute;
+  bottom: 0px;
+  padding: 0 80px 50px;
+  text-align: center;
+}
+#main section.location_common3 .arce .wenBox h2 {
+  font-size: 18px;
+}
+#main section.location_common3 .wenList {
+  float: right;
+  width: 210px;
+  margin-right: 40px;
+}
+#main section.location_common3 .wenList .box {
+  margin-top: 30px;
+}
+#main section.location_common3 .wenList .box h2 {
+  width: 100%;
+  height: 43px;
+  line-height: 43px;
+  font-size: 24px;
+  color: #000;
+  color: #37302b;
+}
+#main section.location_common3 .wenList .box h3 {
+  line-height: 50px;
+  font-weight: bold;
+  color: #37302b;
+}
+#main section.location_common3 .wenList .box p {
+  color: #37302b;
+}
+#main section.location_common3 img {
+  display: block;
+  width: 100%;
+}
